@@ -124,27 +124,6 @@ public class PDConsoleIO {
 
     // Add to database
     theDatabase.addPlace(newPlace);
-
-
-
-
-  //complete this
-
-
-   
-          //read all info for a Place object
-          //decide if it is a locatedPlace or populatedPlace
-          //based on entered data
-          //if location is missing it is a Place object
-          //if location is there but population is missing it is a locatedPlace
-          //if both location and population is available it is a populatedPlace
-          //assume there can be no such place with population but without location
-    
-
-
-          // complete the rest to add the new place to theDatabase
-
-
   }
 
   /**
@@ -228,14 +207,7 @@ public class PDConsoleIO {
     }else{
       System.out.println("Distance: " +dist);
     }
-    //complete
     
-  }
-    
-  public static void main(String args[]) {
-	  PDConsoleIO ui = new PDConsoleIO();
-	  PlaceDB pd = new MyPlaceDatabase();
-	  ui.processCommands(pd);
   }
 
 }
